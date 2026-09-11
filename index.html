@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Pokémon Champions 寶可夢收藏紀錄工具，可在瀏覽器中標記已擁有的寶可夢。"
+    />
+    <meta name="theme-color" content="#df303b" />
+    <title>Pokémon Champions 收藏紀錄</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="回到首頁">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>Champions Tracker</span>
+      </a>
+    </header>
+
+    <main id="app" class="page-shell" aria-live="polite">
+      <section class="loading-card">
+        <span class="loading-spinner" aria-hidden="true"></span>
+        <p>正在載入 Champions 寶可夢名單…</p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="source-note">
+        可用名單與 Champions 圖示來自
+        <a href="https://wiki.52poke.com/wiki/宝可梦列表（Champions）" target="_blank" rel="noreferrer">52Poké Champions 寶可夢列表</a>，並以
+        <a href="https://github.com/projectpokemon/champout" target="_blank" rel="noreferrer">Project Pokémon champout</a>
+        核對版本。
+      </p>
+      <p class="legal-note">本工具為非官方粉絲作品，與 Nintendo、Game Freak 或 The Pokémon Company 無關；圖像著作權歸其各自權利人所有。</p>
+    </footer>
+  </body>
+</html>
